@@ -279,6 +279,8 @@ th {
     font-weight: 400px;
     color: #616161;
     text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 .money{
     display: flex;
@@ -324,6 +326,8 @@ th {
     text-align: center;
     width: 1032px;
     height: 64px;
+    color: #b7b7b7;
+    opacity: 40%;
     margin-left: 125px;
     margin-right: 100px;
     margin-bottom: 40px;
@@ -346,4 +350,56 @@ th {
     padding: 15px 20px; 
     margin-left: 565px;
     margin-bottom: 40px;
+}
+.newsletter-box{
+    background-color: #C6E4D6 ;
+    border: none;
+    border-radius: 20px;
+    width: 1280px;
+    height: 315px;
+    padding: 48px;
+    margin-bottom: 80px;
+}
+.newsletter-title{
+    font-family: "Fira sans",serif;
+    font-size: 40px;
+    font-weight: 800px;
+    text-align: center;
+}
+.subscribe-box {
+    display: flex;
+    height: 55px;
+    width: 600px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 310px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.email{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    font-family: "Fira sans", serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #b7b7b7;
+    opacity: 40%;
+   
+}
+.subscribe-btn{
+    background-color: #006d4c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600px;
+    font-family: "Fira sans",serif;
+}
+.subscribe-btn:hover {
+    background-color: #004c37;
 }
