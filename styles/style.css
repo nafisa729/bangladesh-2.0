@@ -170,6 +170,8 @@ nav{
    margin: 32px auto 20px auto;
    background-image: url(../assets/quote-bg.png);
    background-repeat: no-repeat;
+   border: 2px solid;
+   border-color: #ebebeb;
 }
 .cap-description{
     font-family: "Fira sans",serif;
@@ -184,3 +186,85 @@ nav{
     font-weight: 400px;
     color: #616161; 
 }
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+td {
+    background-color: #FFFFFF;
+    border: 2px solid #dfdfdf;
+    text-align: center;
+    padding: 8px;
+}
+th {
+    font-family: "Fira sans",serif;
+    font-size: 20px;
+    font-weight: 600px;
+    background-color: #c7e4d7;
+    border: 2px solid #dfdfdf;
+    text-align: center;
+    padding: 8px;
+}
+.opinion-desc{
+    font-family: "Fira sans",serif;
+    font-size: 16px;
+    font-weight: 600px;
+    text-align: left;
+}
+.opinion-style{
+    width: 1260px;
+    height: 380px;
+}
+.opinion-box{
+    width: 1280px;
+    height: 409px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 48px 24px;
+   margin: 32px auto 20px auto;
+}
+.opinion-btn{
+    font-family: "Fira sans",serif;
+    font-size: 16px;
+    font-weight: 500px;
+    background-color: #c7e4d7;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.first-news{
+    display: flex;
+    width: 1280px;
+    height: 402px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 48px;
+    margin-bottom: 20px;
+}
+.news-img{
+    width: 408px;
+    height: 306px;
+    border-radius: 20px;
+    margin: 20px 40px;
+}
+.news{
+    font-family: "Fira sans",serif;
+    font-size: 40px;
+    font-weight: 800px; 
+}
+.content-heading-1{
+    font-family: "Fira sans",serif;
+    font-size: 32px;
+    font-weight: 800px;
+}
+.news-btn{
+    border-style: none;
+    background-color: #006A50;
+    font-size: 18px;
+    font-weight: "semi bold";
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    padding: 10px 8px;
+}  
