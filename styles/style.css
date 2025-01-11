@@ -25,6 +25,15 @@ nav{
     color: rgb(48, 141, 105);
     padding: 10px 20px;
 }
+.bns:hover{
+    border-style: solid;
+    border-color: rgb(48, 141, 105);
+    background-color: rgb(48, 141, 105);
+    font-size: 18px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+}
 .banner{
     display: flex;
     width: 1280px;
@@ -55,6 +64,15 @@ nav{
 .btn{
     border-style: none;
     background-color: #006A50;
+    font-size: 18px;
+    font-weight: "semi bold";
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 20px 20px;
+}
+.btn:hover{
+    border-style: none;
+    background-color: #044c38;
     font-size: 18px;
     font-weight: "semi bold";
     border-radius: 10px;
@@ -382,13 +400,12 @@ th {
 .email{
     flex: 1;
     padding: 10px;
+    padding-left: 20px;
     border: none;
     font-family: "Fira sans", serif;
     font-size: 16px;
     font-weight: 400px;
-    color: #b7b7b7;
-    opacity: 40%;
-   
+    color: #000000;
 }
 .subscribe-btn{
     background-color: #006d4c;
@@ -402,4 +419,27 @@ th {
 }
 .subscribe-btn:hover {
     background-color: #004c37;
+}
+footer{
+    width: 1380px;
+    height: 200px;
+    border-radius: 20px;
+    padding-top: 20px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer-title{
+    font-family: "Fira sans",serif;
+    font-size: 40px;
+    font-weight: 800px;
+    text-align: center;
+}
+hr{
+    width: 1000px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
 }
