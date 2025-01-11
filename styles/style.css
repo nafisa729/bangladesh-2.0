@@ -267,4 +267,52 @@ th {
     border-radius: 8px;
     color: rgb(255, 255, 255);
     padding: 10px 8px;
-}  
+}.donate-title{
+    font-family: "Fira sans",serif;
+    font-size: 40px;
+    font-weight: 800px;
+    text-align: center; 
+}
+.donate-desc{
+    font-family: "Fira sans",serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #616161;
+    text-align: center;
+}
+.money{
+    display: flex;
+    gap: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.hundred{
+    text-align: center;
+    font-family: "Fira sans",serif;
+    font-size: 40px;
+    font-weight: 800px;
+    width: 250px;
+    height: 128px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: #ededed;
+}
+.hundred:hover{
+    background-color: #C6E4D6;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: #aac4b8;
+}
+.two-hundred{
+    text-align: center;
+    font-family: "Fira sans",serif;
+    font-size: 40px;
+    font-weight: 800px;
+    width: 250px;
+    height: 128px;
+    background-color: #C6E4D6;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: #aac4b8;
+}
