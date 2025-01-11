@@ -107,6 +107,15 @@ nav{
     border: 2px solid;
     border-color: #ebebeb;
 }
+.box-pillar:hover{
+    width: 302px;
+    height: 268px;
+    background-color: #ebebeb;
+    border-radius: 20px;
+    padding: 24px;
+    border: 2px solid;
+    border-color: #ebebeb;
+}
 
 .pillar-heading{
     font-family: "Fira sans",serif;
