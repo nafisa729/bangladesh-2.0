@@ -7,7 +7,7 @@ body {
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 80px 200px 24px 170px;
+    margin: 24px 250px 24px 250px;
     align-items: center;
 
 }
@@ -33,7 +33,7 @@ nav{
     border-radius: 20px;
     align-items: center;
     padding: 80px 50px;
-    margin: 24px 160px 80px 160px;
+    margin: 24px 250px 80px 250px;
     justify-content: space-between;
    
 }
@@ -64,9 +64,7 @@ nav{
 .start{
     width: 1280px;
     height: 384px;
-    align-items: center;
-    justify-content: center;
-    margin: 24px 200px 80px 200px;
+    margin: 24px 250px 80px 250px;
     
 }
 .pillars{
@@ -78,17 +76,7 @@ nav{
     font-size: 40px;
     font-weight: 800px;
 }
-.first-pillar{
-    width: 302px;
-    height: 268px;
-    background-color: #FFFFFF;
-    border-radius: 20px;
-    padding: 24px;
-    border: 2px solid;
-    border-color: #ebebeb;
-    
-}
-.second-pillar{
+.box-pillar{
     width: 302px;
     height: 268px;
     background-color: #FFFFFF;
@@ -97,24 +85,7 @@ nav{
     border: 2px solid;
     border-color: #ebebeb;
 }
-.third-pillar{
-    width: 302px;
-    height: 268px;
-    background-color: #FFFFFF;
-    border-radius: 20px;
-    padding: 24px;
-    border: 2px solid;
-    border-color: #ebebeb;
-}
-.fourth-pillar{
-    width: 302px;
-    height: 268px;
-    background-color: #FFFFFF;
-    border-radius: 20px;
-    padding: 24px;
-    border: 2px solid;
-    border-color: #ebebeb;
-}
+
 .pillar-heading{
     font-family: "Fira sans",serif;
     font-size: 20px;
@@ -126,4 +97,90 @@ nav{
     font-weight: 400px;
     color: #616161;
 
+}
+.middle-desc{
+    font-family: "Fira sans",serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #616161; 
+}
+.middle{
+    width: 1280px;
+    height: 384px;
+    margin: 24px 250px 80px 250px;
+}
+.visions{
+    display: flex;
+    gap: 30px;
+}
+.firstbox-vision{
+    width: 410.67px;
+    height: 325px;
+    background-color: #c7d9f7;
+    border-radius: 20px;
+    padding: 32px;
+}
+.secondbox-vision{
+    width: 410.67px;
+    height: 325px;
+    background-color: #C6E4D6;
+    border-radius: 20px;
+    padding: 32px;
+}
+.thirdbox-vision{
+    width: 410.67px;
+    height: 325px;
+    background-color: #F7EBCF;
+    border-radius: 20px;
+    padding: 32px;
+}
+.firstvis-btn{
+    border-style: none;
+    background-color: #5490F5;
+    font-size: 16px;
+    font-weight: "semi bold";
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    padding: 20px 8px;
+}
+.secondvis-btn{
+    border-style: none;
+    background-color: #09A15C;
+    font-size: 16px;
+    font-weight: "semi bold";
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    padding: 20px 8px;
+}
+.thirdvis-btn{
+    border-style: none;
+    background-color: #FFC239;
+    font-size: 16px;
+    font-weight: "semi bold";
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    padding: 20px 8px;
+}
+.caption{
+    width: 1280px;
+    height: 120px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 48px 24px;
+   margin: 32px auto 20px auto;
+   background-image: url(../assets/quote-bg.png);
+   background-repeat: no-repeat;
+}
+.cap-description{
+    font-family: "Fira sans",serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+.cap-desc{
+    font-family: "Fira sans",serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #616161; 
 }
