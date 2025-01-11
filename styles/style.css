@@ -225,6 +225,8 @@ nav{
     padding: 48px 24px;
     margin: 32px auto 20px auto;
     background-image: url(../assets/quote-bg.png);
+
+    background-origin: content-box;
     background-repeat: no-repeat;
     border: 2px solid;
     border-color: #ebebeb;
